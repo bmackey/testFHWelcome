@@ -32,13 +32,55 @@
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
 
+        <!-- build:css(.tmp) css/main.css -->
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/effeckt.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/app.css">
+        <!-- endbuild -->
     </head>
     <body>
 
-        <script src="scripts/vendor.js"></script>
+        <!-- build:js scripts/vendor.js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/helper.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/effeckt.js"></script>
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/handlebars/handlebars.runtime.js"></script>
+        <script src="bower_components/backbone/backbone.js"></script>
+        <script src="bower_components/bootstrap/js/affix.js"></script>
+        <script src="bower_components/bootstrap/js/alert.js"></script>
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/bootstrap/js/modal.js"></script>
+        <script src="bower_components/bootstrap/js/transition.js"></script>
+        <script src="bower_components/bootstrap/js/button.js"></script>
+        <script src="bower_components/bootstrap/js/popover.js"></script>
+        <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/bootstrap/js/collapse.js"></script>
+        <script src="bower_components/bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
 
-        <script src="scripts/app.js"></script>
+        <!-- build:js scripts/app.js -->
+        <script src="scripts/namespace.js"></script>
+        <script src="scripts/templates/generated/templates.js"></script>
+        <script src="scripts/routers/index.js"></script>
+        <script src="scripts/models/page.js"></script>
+        <script src="scripts/views/navbar.view.js"></script>
+        <script src="scripts/views/intro.view.js"></script>
+        <script src="scripts/views/viewbase.view.js"></script>
+        <script src="scripts/views/main.view.js"></script>
+        <script src="scripts/views/cloudcall.view.js"></script>
+        <script src="scripts/views/stats.view.js"></script>
+        <script src="scripts/views/nodepage.view.js"></script>
+        <script src="scripts/views/databrowser.view.js"></script>
+        <script src="scripts/views/weather.view.js"></script>
+        <script src="scripts/views/integration.view.js"></script>
+        <script src="scripts/init.js"></script>
+        <!-- endbuild -->
 
         <div id="main_page" class="page effeckt-page-active" data-effeckt-page="main_view_container">
         </div>

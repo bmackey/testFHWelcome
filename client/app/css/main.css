@@ -301,7 +301,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 
 input,
@@ -350,7 +350,7 @@ img {
   max-width: 100%;
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #ffffff;
+  background-color: #fafafa;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1657,7 +1657,7 @@ th {
 }
 
 .table .table {
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 
 .table-condensed > thead > tr > th,
@@ -4137,7 +4137,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   cursor: default;
-  background-color: #ffffff;
+  background-color: #fafafa;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
 }
@@ -4190,7 +4190,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #fafafa;
   }
 }
 
@@ -4280,7 +4280,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #fafafa;
   }
 }
 
@@ -5263,7 +5263,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #ffffff;
+  background-color: #fafafa;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;

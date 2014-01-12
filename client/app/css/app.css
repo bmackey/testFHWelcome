@@ -20,6 +20,7 @@
 #main_page .row {
   margin-right: 0;
   margin-left: 0;
+  background-color: #fafafa;
 }
 
 .banner {
@@ -29,6 +30,7 @@
   color: #fafafa;
   background-color: #3d3c3a;
   border: none;
+  border-radius: 0;
 }
 
 .banner h1 {

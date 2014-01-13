@@ -33,13 +33,24 @@
   border-radius: 0;
 }
 
+.bannerLogo {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 31px;
+}
+
 .banner h1 {
+  width: 85%;
   margin-top: 10px;
-  font-size: 22px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
 }
 
 .banner p {
   margin-bottom: 0;
+  font-size: 14px;
 }
 
 .fh-icon {

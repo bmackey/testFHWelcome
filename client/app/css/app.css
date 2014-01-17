@@ -45,12 +45,12 @@
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  font-size: 20px;
+  font-size: 1.6em;
 }
 
 .banner p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1.1em;
 }
 
 .fh-icon {
@@ -70,10 +70,12 @@
 }
 
 .start-menu-item h5 {
+  font-size: 1em;
   color: #3d3c3a;
 }
 
 .start-menu-item h6 {
+  font-size: 0.8em;
   color: #535353;
 }
 

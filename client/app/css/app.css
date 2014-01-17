@@ -10,10 +10,12 @@
 @content-header-font-color: #000;*/
 
 .body {
+  overflow: hidden;
   background-color: #fafafa;
 }
 
 #page_view_container {
+  overflow: hidden;
   background-color: #fafafa;
 }
 

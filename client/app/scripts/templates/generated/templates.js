@@ -126,11 +126,11 @@ function program1(depth0,data) {
   }
 
   buffer += " "
-    + "\n<div class=\"banner well center text-center\">\n<span style=\"position: relative\">\n<h1>";
+    + "\n<div class=\"banner well center text-center\">\n<h1>";
   if (stack1 = helpers.header) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.header; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</h1>\n<div class=\"fh-icon\">\n<img src=\"img/logo.png\"/ class=\"bannerLogo\">\n</div>\n</span>\n<p>";
+    + "</h1>\n<div class=\"fh-icon\">\n<img src=\"img/logo.png\"/ class=\"bannerLogo\">\n</div>\n<p>";
   if (stack1 = helpers.text) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.text; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)

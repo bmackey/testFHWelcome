@@ -47,12 +47,12 @@
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  font-size: 1.6em;
+  font-size: 160%;
 }
 
 .banner p {
   margin-bottom: 0;
-  font-size: 1.1em;
+  font-size: 110%;
 }
 
 .fh-icon {

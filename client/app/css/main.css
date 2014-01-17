@@ -297,6 +297,7 @@ html {
 }
 
 body {
+  overflow: hidden;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
